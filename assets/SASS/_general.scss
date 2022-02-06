@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'Larisch Neue' serif;
+    src: url(../fonts/LarishNeueSemibold.woff);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+// POSITION //
+
+#stuck, #goldenBear, #poppyBear{
+    position: relative;
+}
+
+figure, #circle, #label{
+    position: absolute;
+}
+
+
+// Z-INDEX //
+
+figure{
+    z-index: 1;
+}
+    
+// #circle{
+//     z-index: 4;
+// }
+    
+// main{
+//     z-index: 3;
+// }
+    
+// #label{
+//     z-index: 2;
+// }
+    
+// #join footer{
+//     z-index: 1;
+// }
+
+
+// STRUCTURE //
+
+.dark{
+    background: #000;
+    color: #fff;
+}
+
+.flexV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexH{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+// IMAGES //
+
+img{
+    width: 100%;
+}
+
+.S{
+    width: 20.9%;
+}
+
+.M{
+    width: 25%;
+}
+
+.L{
+    width: 33.4%;
+}
+
+.rotateL{
+    width: 28%
+}
+
+.XL{
+    width: 55.5%
+}
+
+.bear{
+    width: 6%;
+}
+
+.icon{
+    width: 25%;
+}
+
+.logo{
+    width: 48%;
+}
+
+
+// FONTS //
+
+a{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid grey;
+    padding: 1.8% 4%;
+
+    &:hover{
+        background: #fff;
+        color: #000;
+    }
+}
+
+p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Larisch Neue'serif;
+}
+
+h1, h2{
+    letter-spacing: 0.2rem;
+}
+
+h2{
+    color: #000;
+    -webkit-text-stroke: 2px #fff;
+    line-height: 2rem;
+}
+
+h1, h2, h4{
+    font-size: 6rem;
+}
+
+h3{
+    font-size: 7rem;
+}
+
+h4{
+    line-height: 5.5rem;
+}
+
+h5{
+    font-size: 2.1rem;
+}
+
+h6{
+    font-size: 2.5rem;
+    line-height: 3rem;
+}

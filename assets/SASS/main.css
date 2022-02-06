@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Larisch Neue" serif;
+  src: url(../fonts/LarishNeueSemibold.woff);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#stuck, #goldenBear, #poppyBear {
+  position: relative;
+}
+
+figure, #circle, #label {
+  position: absolute;
+}
+
+figure {
+  z-index: 1;
+}
+
+.dark {
+  background: #000;
+  color: #fff;
+}
+
+.flexV {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexH {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+}
+
+.S {
+  width: 20.9%;
+}
+
+.M {
+  width: 25%;
+}
+
+.L {
+  width: 33.4%;
+}
+
+.rotateL {
+  width: 28%;
+}
+
+.XL {
+  width: 55.5%;
+}
+
+.bear {
+  width: 6%;
+}
+
+.icon {
+  width: 25%;
+}
+
+.logo {
+  width: 48%;
+}
+
+a {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.3rem;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid grey;
+  padding: 1.8% 4%;
+}
+a:hover {
+  background: #fff;
+  color: #000;
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Larisch Neue" serif;
+}
+
+h1, h2 {
+  letter-spacing: 0.2rem;
+}
+
+h2 {
+  color: #000;
+  -webkit-text-stroke: 2px #fff;
+  line-height: 2rem;
+}
+
+h1, h2, h4 {
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 7rem;
+}
+
+h4 {
+  line-height: 5.5rem;
+}
+
+h5 {
+  font-size: 2.1rem;
+}
+
+h6 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+header {
+  height: 120vh;
+}
+header #line {
+  height: 30vh;
+  width: 0.1vw;
+  border-right: 1px solid grey;
+  margin-bottom: 4%;
+}
+header article {
+  margin-bottom: 8%;
+}
+header article p {
+  margin-bottom: 1%;
+}
+header article h2 {
+  margin-bottom: 5.5%;
+}
+header nav {
+  width: 84%;
+  margin: 0 9%;
+}
+
+#lastYear {
+  height: 217.5vh;
+  background: url(../img/map.svg) #000 no-repeat;
+  background-size: 38%;
+  background-position: right 0 bottom 16.5%;
+  color: #fff;
+}
+#lastYear article {
+  width: 76%;
+  margin-left: 9%;
+}
+#lastYear article h3 {
+  margin-bottom: 1%;
+}
+#lastYear article h3:nth-of-type(1) {
+  margin-bottom: 10%;
+}
+#lastYear article p {
+  font-size: 1.5rem;
+}
+
+#stuck {
+  height: 262.2vh;
+}
+#stuck article {
+  width: 34%;
+  margin: 32.5% 0 19.5% 0;
+}
+#stuck article h4 {
+  margin-bottom: 1.3%;
+}
+#stuck article p {
+  font-size: 1.05rem;
+  line-height: 2rem;
+}
+#stuck article:nth-of-type(2) {
+  margin: 34% 0 19.5% 0;
+}
+#stuck #ONE {
+  top: -4.7%;
+  right: 8.3%;
+}
+#stuck #TWO {
+  top: 16.3%;
+  left: 4%;
+}
+#stuck #THREE {
+  top: 38.8%;
+  right: 0;
+}
+#stuck #FOUR {
+  top: 51%;
+  left: 16.7%;
+}
+#stuck #FIVE {
+  top: 62%;
+  right: 12.5%;
+}
+#stuck #SIX {
+  top: 79.5%;
+  left: 0;
+}
+#stuck #SEVEN {
+  top: 95.5%;
+  right: 20.75%;
+}
+
+#goldenBear {
+  height: 182vh;
+}
+#goldenBear article {
+  width: 82.5%;
+  margin: 11% 8%;
+  padding-top: 12.5%;
+}
+#goldenBear article div:first-of-type {
+  width: 30%;
+}
+#goldenBear article div:first-of-type p {
+  margin-bottom: 9%;
+}
+#goldenBear article div:nth-of-type(2) {
+  width: 49%;
+}
+#goldenBear article div:nth-of-type(2) h5 {
+  margin-bottom: 4%;
+  padding-top: 9%;
+}
+#goldenBear #EIGHT {
+  top: 53.3%;
+  left: 8.4%;
+}
+#goldenBear #NINE {
+  top: 67%;
+  right: 13%;
+}
+
+#poppyBear {
+  height: 241.5vh;
+}
+#poppyBear article {
+  width: 82.5%;
+  margin: 11% 8.5%;
+  padding-top: 21%;
+}
+#poppyBear article div:first-of-type {
+  width: 30%;
+}
+#poppyBear article div:first-of-type p {
+  margin-bottom: 9%;
+}
+#poppyBear article div:nth-of-type(2) {
+  width: 51%;
+}
+#poppyBear article div:nth-of-type(2) h5 {
+  margin-bottom: 4%;
+  padding: 9% 0 0 3%;
+}
+#poppyBear #TEN {
+  margin: 15% 0 0 36.3%;
+}
+#poppyBear #ELEVEN {
+  top: 58%;
+  left: 13%;
+}
+
+#join {
+  height: 90vh;
+}
+#join article {
+  padding: 9.5% 0 0 8.5%;
+}
+#join article div {
+  width: 41%;
+}
+#join article div p {
+  margin-bottom: 6%;
+}
+#join article div h6 {
+  margin-bottom: 10%;
+}
+
+footer {
+  height: 25vh;
+}
+footer section {
+  width: 79%;
+  margin: 0 8.5%;
+}
+footer section .containerOne {
+  width: 32%;
+  margin-bottom: 8%;
+}
+footer section .containerOne p {
+  margin-bottom: 8%;
+}
+footer section .containerTwo {
+  width: 14%;
+}/*# sourceMappingURL=main.css.map */
